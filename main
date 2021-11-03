@@ -1,0 +1,47 @@
+public class main{
+public static void main(String[] args) {
+    String cardName;
+    String effectType;
+    String cardType;
+
+    public class effectType{
+    Boolean hasEffect;
+    String effectDescription;
+    }
+
+
+
+    public class cardType{
+    String cardLevel;
+    Boolean isPendulum;
+    boolean isTuner;
+    }
+
+
+    public class cardName{
+        String monsterType;
+        int monsterAttack;
+        int monsterDeffense;
+
+
+    }
+
+    public Card () {
+        this.cardName = "";
+        this.cardType = "";
+        this.effectType = "";+
+        
+
+
+    }
+        
+    public static void(String[] args) {
+        Card card = new Card ();
+
+
+    }
+
+
+
+    }
+}
