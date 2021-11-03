@@ -1,8 +1,8 @@
 public class main{
-public static void main(String[] args) {
-    String cardName;
-    String effectType;
-    String cardType;
+public class Card {
+    private String cardName;
+    private String effectType;
+    private String cardType;
 
     public class effectType{
     Boolean hasEffect;
@@ -40,6 +40,14 @@ public static void main(String[] args) {
 
 
     }
+
+public Card(String cardName, String cardType, String effectType,) {
+    this.cardName = cardName;
+    this.cardType = cardType;
+    this.effectType = effectType;
+
+}
+
 
 
 
